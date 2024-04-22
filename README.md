@@ -1,2 +1,2 @@
 # MicrosoftAICup
-Breast Cencer Detection
+Breast Cancer Detection
