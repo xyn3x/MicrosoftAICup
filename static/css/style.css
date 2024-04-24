@@ -1,0 +1,142 @@
+
+body {
+    margin: 0;
+    background-color: #8AB6F9;
+}
+
+.about {
+    background-color: #678CEC;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.welcome {
+    text-align: left;
+    background-color: #CADCFC;
+    display: inline-block;
+    overflow: hidden;
+    color: #552619;
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 40px;
+        font-weight: bold;
+    }
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 30px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+nav {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: #678CEC;
+    top: auto;
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: auto;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    ul {
+        position: relative;
+        margin: 0;
+        z-index: 2;
+        text-transform: uppercase;
+        text-align: center;
+        li {
+            display: inline-block;
+            padding: 1em 0;
+            margin-right: 5em;
+            font-size: 1em;
+            p {
+                text-decoration: none;
+                color: #fff;
+                font-size: 1em;
+            }
+            .num {      
+                position: relative;
+                display: block;
+                font-size: large;
+            }
+            .top {        
+                position: relative;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1em;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.calculator {
+    margin: 115px auto;
+    width: 55%;
+    display: block;
+    section {
+        select {
+            margin: 0 30px 20px;
+            width: 15%;
+            padding: 2px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            border: 2px solid black;
+            border-radius: 5px;
+            
+        }
+    }
+    .name {
+        display: block;
+        padding: 10px;
+        background-color: #678CEC;
+        color: antiquewhite;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+        font-weight: bold;
+    }
+    p {
+        padding: 0 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .sub {
+        margin: 40px 0 0 0;
+        position: relative;
+        left: 35%;
+        display: block;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        background-color: #008CBA;
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+    }
+    .ressub {
+        margin: 20px;
+        position: relative;
+        left: 37%;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        background-color: #008CBA;
+        color: aliceblue;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+    }
+}
+
+#section1, #section2, #section3, #section4, #section5 {
+    background-color: aliceblue;
+}
