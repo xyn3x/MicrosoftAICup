@@ -12,7 +12,7 @@
         <p>Breast Cancer Risk Calculation Tool </p>
     </div>
     <div class="welcome">
-        <h1>Welcome!  </h1>
+        <h1>Welcome! {{age}}  </h1>
         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto pariatur, excepturi esse, deleniti labore ipsam deserunt dolor fuga architecto voluptate expedita, exercitationem harum dolorem aliquam enim? Pariatur quos mollitia esse?</p>
     </div>
     <br>
@@ -40,7 +40,7 @@
                     Age
                 </label>
                 <p> &nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum alias fuga perspiciatis natus sequi nostrum qui soluta, commodi fugit eum doloremque nulla deleniti nihil ab adipisci quae aperiam, temporibus corporis.</p>
-                <select required name="age">
+                <select required>
                     <option value="", hidden selected>Select age</option>
                     <option value="18">18</option>
                     <option value="19">19</option>
@@ -85,8 +85,6 @@
                     <option value="20-50">20-50</option>
                 </select>
             </section>
-            <input type="submit" value="Calculate Risk" class="sub">
-            <input type="button" value="Reset" onclick="clearResult()" class="ressub">
         </form>
     </div>
 </body>
